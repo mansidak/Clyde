@@ -7,19 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7615A892AC0567F00E9F0F0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7615A882AC0567F00E9F0F0 /* OnboardingView.swift */; };
+		E7615A8C2AC0586100E9F0F0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E7615A8B2AC0586100E9F0F0 /* Alamofire */; };
+		E7615A932AC0D04800E9F0F0 /* Frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = E7615A912AC0D04800E9F0F0 /* Frame1.png */; };
+		E7615A942AC0D04800E9F0F0 /* Frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7615A922AC0D04800E9F0F0 /* Frame2.png */; };
 		E79146C52ABBB2F700A6475A /* SudoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79146C42ABBB2F700A6475A /* SudoApp.swift */; };
 		E79146C72ABBB2F700A6475A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79146C62ABBB2F700A6475A /* ContentView.swift */; };
 		E79146C92ABBB2F800A6475A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79146C82ABBB2F800A6475A /* Assets.xcassets */; };
 		E79146CC2ABBB2F800A6475A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79146CB2ABBB2F800A6475A /* Preview Assets.xcassets */; };
+		E7E03F832ABF04A800534F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E03F822ABF04A800534F04 /* AppDelegate.swift */; };
+		E7E03F852ABF065C00534F04 /* StatusBarItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E03F842ABF065C00534F04 /* StatusBarItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7615A882AC0567F00E9F0F0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		E7615A912AC0D04800E9F0F0 /* Frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Frame1.png; path = "../../../../Desktop/Background Clyde Omboarding/Frame1.png"; sourceTree = "<group>"; };
+		E7615A922AC0D04800E9F0F0 /* Frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Frame2.png; path = "../../../../Desktop/Background Clyde Omboarding/Frame2.png"; sourceTree = "<group>"; };
 		E79146C12ABBB2F700A6475A /* Sudo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sudo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79146C42ABBB2F700A6475A /* SudoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudoApp.swift; sourceTree = "<group>"; };
 		E79146C62ABBB2F700A6475A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E79146C82ABBB2F800A6475A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E79146CB2ABBB2F800A6475A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E79146CD2ABBB2F800A6475A /* Sudo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sudo.entitlements; sourceTree = "<group>"; };
+		E7E03F822ABF04A800534F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7E03F842ABF065C00534F04 /* StatusBarItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7615A8C2AC0586100E9F0F0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +64,11 @@
 		E79146C32ABBB2F700A6475A /* Sudo */ = {
 			isa = PBXGroup;
 			children = (
+				E7615A912AC0D04800E9F0F0 /* Frame1.png */,
+				E7615A922AC0D04800E9F0F0 /* Frame2.png */,
+				E7615A882AC0567F00E9F0F0 /* OnboardingView.swift */,
+				E7E03F842ABF065C00534F04 /* StatusBarItemController.swift */,
+				E7E03F822ABF04A800534F04 /* AppDelegate.swift */,
 				E79146C42ABBB2F700A6475A /* SudoApp.swift */,
 				E79146C62ABBB2F700A6475A /* ContentView.swift */,
 				E79146C82ABBB2F800A6475A /* Assets.xcassets */,
@@ -85,6 +102,9 @@
 			dependencies = (
 			);
 			name = Sudo;
+			packageProductDependencies = (
+				E7615A8B2AC0586100E9F0F0 /* Alamofire */,
+			);
 			productName = Sudo;
 			productReference = E79146C12ABBB2F700A6475A /* Sudo.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +133,9 @@
 				Base,
 			);
 			mainGroup = E79146B82ABBB2F700A6475A;
+			packageReferences = (
+				E7615A8A2AC0586100E9F0F0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = E79146C22ABBB2F700A6475A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E79146CC2ABBB2F800A6475A /* Preview Assets.xcassets in Resources */,
+				E7615A932AC0D04800E9F0F0 /* Frame1.png in Resources */,
+				E7615A942AC0D04800E9F0F0 /* Frame2.png in Resources */,
 				E79146C92ABBB2F800A6475A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E03F852ABF065C00534F04 /* StatusBarItemController.swift in Sources */,
+				E7E03F832ABF04A800534F04 /* AppDelegate.swift in Sources */,
 				E79146C72ABBB2F700A6475A /* ContentView.swift in Sources */,
+				E7615A892AC0567F00E9F0F0 /* OnboardingView.swift in Sources */,
 				E79146C52ABBB2F700A6475A /* SudoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +369,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E7615A8A2AC0586100E9F0F0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E7615A8B2AC0586100E9F0F0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7615A8A2AC0586100E9F0F0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E79146B92ABBB2F700A6475A /* Project object */;
 }
