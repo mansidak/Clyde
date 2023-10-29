@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E733E0EE2AEDF30D00932002 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = E733E0ED2AEDF30D00932002 /* Sparkle */; };
+		E74947DE2ACA182B00495FFE /* CountryCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74947DD2ACA182B00495FFE /* CountryCodes.swift */; };
+		E74947E02ACA3EA200495FFE /* NSSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74947DF2ACA3EA200495FFE /* NSSound.swift */; };
+		E74947E22ACA3F0600495FFE /* Final.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E74947E12ACA3F0600495FFE /* Final.mp3 */; };
+		E74947E42ACA461C00495FFE /* Final4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E74947E32ACA461C00495FFE /* Final4.mp3 */; };
 		E7615A892AC0567F00E9F0F0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7615A882AC0567F00E9F0F0 /* OnboardingView.swift */; };
 		E7615A8C2AC0586100E9F0F0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E7615A8B2AC0586100E9F0F0 /* Alamofire */; };
 		E7615A932AC0D04800E9F0F0 /* Frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = E7615A912AC0D04800E9F0F0 /* Frame1.png */; };
@@ -15,20 +20,29 @@
 		E79146C72ABBB2F700A6475A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79146C62ABBB2F700A6475A /* ContentView.swift */; };
 		E79146C92ABBB2F800A6475A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79146C82ABBB2F800A6475A /* Assets.xcassets */; };
 		E79146CC2ABBB2F800A6475A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79146CB2ABBB2F800A6475A /* Preview Assets.xcassets */; };
+		E7DA5A242ACB6EFA00565B58 /* ChangePhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DA5A232ACB6EFA00565B58 /* ChangePhoneNumberView.swift */; };
+		E7DA5A262ACB8DE500565B58 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DA5A252ACB8DE500565B58 /* Preferences.swift */; };
 		E7E03F832ABF04A800534F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E03F822ABF04A800534F04 /* AppDelegate.swift */; };
 		E7E03F852ABF065C00534F04 /* StatusBarItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E03F842ABF065C00534F04 /* StatusBarItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E733E0EF2AEDF4E200932002 /* Clyde-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Clyde-Info.plist"; sourceTree = "<group>"; };
+		E74947DD2ACA182B00495FFE /* CountryCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodes.swift; sourceTree = "<group>"; };
+		E74947DF2ACA3EA200495FFE /* NSSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSSound.swift; sourceTree = "<group>"; };
+		E74947E12ACA3F0600495FFE /* Final.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Final.mp3; sourceTree = "<group>"; };
+		E74947E32ACA461C00495FFE /* Final4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Final4.mp3; sourceTree = "<group>"; };
 		E7615A882AC0567F00E9F0F0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		E7615A912AC0D04800E9F0F0 /* Frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Frame1.png; path = "../../../../Desktop/Background Clyde Omboarding/Frame1.png"; sourceTree = "<group>"; };
 		E7615A922AC0D04800E9F0F0 /* Frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Frame2.png; path = "../../../../Desktop/Background Clyde Omboarding/Frame2.png"; sourceTree = "<group>"; };
-		E79146C12ABBB2F700A6475A /* Sudo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sudo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79146C12ABBB2F700A6475A /* Clyde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clyde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79146C42ABBB2F700A6475A /* SudoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudoApp.swift; sourceTree = "<group>"; };
 		E79146C62ABBB2F700A6475A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E79146C82ABBB2F800A6475A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E79146CB2ABBB2F800A6475A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E79146CD2ABBB2F800A6475A /* Sudo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sudo.entitlements; sourceTree = "<group>"; };
+		E7DA5A232ACB6EFA00565B58 /* ChangePhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePhoneNumberView.swift; sourceTree = "<group>"; };
+		E7DA5A252ACB8DE500565B58 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		E7E03F822ABF04A800534F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7E03F842ABF065C00534F04 /* StatusBarItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7615A8C2AC0586100E9F0F0 /* Alamofire in Frameworks */,
+				E733E0EE2AEDF30D00932002 /* Sparkle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +63,9 @@
 		E79146B82ABBB2F700A6475A = {
 			isa = PBXGroup;
 			children = (
+				E733E0EF2AEDF4E200932002 /* Clyde-Info.plist */,
+				E7DA5A252ACB8DE500565B58 /* Preferences.swift */,
+				E7DA5A232ACB6EFA00565B58 /* ChangePhoneNumberView.swift */,
 				E79146C32ABBB2F700A6475A /* Sudo */,
 				E79146C22ABBB2F700A6475A /* Products */,
 			);
@@ -56,7 +74,7 @@
 		E79146C22ABBB2F700A6475A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E79146C12ABBB2F700A6475A /* Sudo.app */,
+				E79146C12ABBB2F700A6475A /* Clyde.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,8 +82,12 @@
 		E79146C32ABBB2F700A6475A /* Sudo */ = {
 			isa = PBXGroup;
 			children = (
+				E74947E32ACA461C00495FFE /* Final4.mp3 */,
+				E74947E12ACA3F0600495FFE /* Final.mp3 */,
 				E7615A912AC0D04800E9F0F0 /* Frame1.png */,
 				E7615A922AC0D04800E9F0F0 /* Frame2.png */,
+				E74947DF2ACA3EA200495FFE /* NSSound.swift */,
+				E74947DD2ACA182B00495FFE /* CountryCodes.swift */,
 				E7615A882AC0567F00E9F0F0 /* OnboardingView.swift */,
 				E7E03F842ABF065C00534F04 /* StatusBarItemController.swift */,
 				E7E03F822ABF04A800534F04 /* AppDelegate.swift */,
@@ -89,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E79146C02ABBB2F700A6475A /* Sudo */ = {
+		E79146C02ABBB2F700A6475A /* Clyde */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E79146D02ABBB2F800A6475A /* Build configuration list for PBXNativeTarget "Sudo" */;
+			buildConfigurationList = E79146D02ABBB2F800A6475A /* Build configuration list for PBXNativeTarget "Clyde" */;
 			buildPhases = (
 				E79146BD2ABBB2F700A6475A /* Sources */,
 				E79146BE2ABBB2F700A6475A /* Frameworks */,
@@ -101,12 +123,13 @@
 			);
 			dependencies = (
 			);
-			name = Sudo;
+			name = Clyde;
 			packageProductDependencies = (
 				E7615A8B2AC0586100E9F0F0 /* Alamofire */,
+				E733E0ED2AEDF30D00932002 /* Sparkle */,
 			);
 			productName = Sudo;
-			productReference = E79146C12ABBB2F700A6475A /* Sudo.app */;
+			productReference = E79146C12ABBB2F700A6475A /* Clyde.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +147,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E79146BC2ABBB2F700A6475A /* Build configuration list for PBXProject "Sudo" */;
+			buildConfigurationList = E79146BC2ABBB2F700A6475A /* Build configuration list for PBXProject "Clyde" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,12 +158,13 @@
 			mainGroup = E79146B82ABBB2F700A6475A;
 			packageReferences = (
 				E7615A8A2AC0586100E9F0F0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E733E0EC2AEDF30D00932002 /* XCRemoteSwiftPackageReference "Sparkle" */,
 			);
 			productRefGroup = E79146C22ABBB2F700A6475A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E79146C02ABBB2F700A6475A /* Sudo */,
+				E79146C02ABBB2F700A6475A /* Clyde */,
 			);
 		};
 /* End PBXProject section */
@@ -152,7 +176,9 @@
 			files = (
 				E79146CC2ABBB2F800A6475A /* Preview Assets.xcassets in Resources */,
 				E7615A932AC0D04800E9F0F0 /* Frame1.png in Resources */,
+				E74947E22ACA3F0600495FFE /* Final.mp3 in Resources */,
 				E7615A942AC0D04800E9F0F0 /* Frame2.png in Resources */,
+				E74947E42ACA461C00495FFE /* Final4.mp3 in Resources */,
 				E79146C92ABBB2F800A6475A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,9 +192,13 @@
 			files = (
 				E7E03F852ABF065C00534F04 /* StatusBarItemController.swift in Sources */,
 				E7E03F832ABF04A800534F04 /* AppDelegate.swift in Sources */,
+				E7DA5A242ACB6EFA00565B58 /* ChangePhoneNumberView.swift in Sources */,
 				E79146C72ABBB2F700A6475A /* ContentView.swift in Sources */,
 				E7615A892AC0567F00E9F0F0 /* OnboardingView.swift in Sources */,
 				E79146C52ABBB2F700A6475A /* SudoApp.swift in Sources */,
+				E74947DE2ACA182B00495FFE /* CountryCodes.swift in Sources */,
+				E74947E02ACA3EA200495FFE /* NSSound.swift in Sources */,
+				E7DA5A262ACB8DE500565B58 /* Preferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +337,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Clyde-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -334,6 +365,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Clyde-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -350,7 +382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E79146BC2ABBB2F700A6475A /* Build configuration list for PBXProject "Sudo" */ = {
+		E79146BC2ABBB2F700A6475A /* Build configuration list for PBXProject "Clyde" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E79146CE2ABBB2F800A6475A /* Debug */,
@@ -359,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E79146D02ABBB2F800A6475A /* Build configuration list for PBXNativeTarget "Sudo" */ = {
+		E79146D02ABBB2F800A6475A /* Build configuration list for PBXNativeTarget "Clyde" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E79146D12ABBB2F800A6475A /* Debug */,
@@ -371,6 +403,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E733E0EC2AEDF30D00932002 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
 		E7615A8A2AC0586100E9F0F0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -382,6 +422,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E733E0ED2AEDF30D00932002 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E733E0EC2AEDF30D00932002 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
 		E7615A8B2AC0586100E9F0F0 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E7615A8A2AC0586100E9F0F0 /* XCRemoteSwiftPackageReference "Alamofire" */;
