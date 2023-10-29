@@ -10,6 +10,7 @@ import Alamofire
 import AudioToolbox
 import AVKit
 import AVFoundation
+import Sparkle
 
 class AppSettings: ObservableObject {
     @Published var sendText = true {
@@ -208,12 +209,16 @@ class TimerManager: ObservableObject {
 
 @main
 struct SudoApp: App {
+    private let updaterController: SPUStandardUpdaterController
+
+
     @StateObject var settings = AppSettings()
     var preferencesWindow: NSWindow?
     @StateObject var timerManager: TimerManager
 
 
     init() {
+        updaterController = SPUStandardUpdaterController(startingUpdater: true, updaterDelegate: nil, userDriverDelegate: nil)
         let settingsObject = AppSettings()
         let timerManagerObject = TimerManager(settings: settingsObject)
 
@@ -274,8 +279,11 @@ struct SudoApp: App {
                             .frame(minWidth: windowSize.minWidth, minHeight: windowSize.minHeight)
                             .frame(maxWidth: windowSize.maxWidth, maxHeight: windowSize.maxHeight)
                     }     
-                }
-       
+        }.commands {
+            CommandGroup(after: .appInfo) {
+                CheckForUpdatesView(updater: updaterController.updater)
+            }
+        }
         
         .windowResizability(.contentSize)
             MenuBarExtra("Clyde") {

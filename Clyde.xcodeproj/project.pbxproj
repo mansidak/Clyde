@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E733E0EE2AEDF30D00932002 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = E733E0ED2AEDF30D00932002 /* Sparkle */; };
+		E733E0F12AEDF61900932002 /* CheckForUpdatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E733E0F02AEDF61900932002 /* CheckForUpdatesViewModel.swift */; };
 		E74947DE2ACA182B00495FFE /* CountryCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74947DD2ACA182B00495FFE /* CountryCodes.swift */; };
 		E74947E02ACA3EA200495FFE /* NSSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74947DF2ACA3EA200495FFE /* NSSound.swift */; };
 		E74947E22ACA3F0600495FFE /* Final.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E74947E12ACA3F0600495FFE /* Final.mp3 */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		E733E0EF2AEDF4E200932002 /* Clyde-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Clyde-Info.plist"; sourceTree = "<group>"; };
+		E733E0F02AEDF61900932002 /* CheckForUpdatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckForUpdatesViewModel.swift; sourceTree = "<group>"; };
 		E74947DD2ACA182B00495FFE /* CountryCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodes.swift; sourceTree = "<group>"; };
 		E74947DF2ACA3EA200495FFE /* NSSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSSound.swift; sourceTree = "<group>"; };
 		E74947E12ACA3F0600495FFE /* Final.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Final.mp3; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		E79146C32ABBB2F700A6475A /* Sudo */ = {
 			isa = PBXGroup;
 			children = (
+				E733E0F02AEDF61900932002 /* CheckForUpdatesViewModel.swift */,
 				E74947E32ACA461C00495FFE /* Final4.mp3 */,
 				E74947E12ACA3F0600495FFE /* Final.mp3 */,
 				E7615A912AC0D04800E9F0F0 /* Frame1.png */,
@@ -198,6 +201,7 @@
 				E79146C52ABBB2F700A6475A /* SudoApp.swift in Sources */,
 				E74947DE2ACA182B00495FFE /* CountryCodes.swift in Sources */,
 				E74947E02ACA3EA200495FFE /* NSSound.swift in Sources */,
+				E733E0F12AEDF61900932002 /* CheckForUpdatesViewModel.swift in Sources */,
 				E7DA5A262ACB8DE500565B58 /* Preferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +342,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Clyde-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -366,6 +371,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Clyde-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
