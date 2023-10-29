@@ -8,7 +8,7 @@
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/mansidak/Clyde/releases/download/untagged-d8f0bdd2ce87f2a16076/Clyde.app.zip" length="2508799" type="application/octet-stream"/>
+            <enclosure url="https://github.com/mansidak/Clyde/releases/download/First/Clyde.app.zip" length="2508799" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
